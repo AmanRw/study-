@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h1>logo</h1>
+      <ul>
+        <a href="languages store/c/c.html"><li>C</li></a>
+        <a href="languages store/c++/c++.html"><li>C++</li></a>
+        <a href="languages store/html/html.html"><li>HTML</li></a>
+        <a href="languages store/css/css.html"><li>CSS</li></a>
+        <a href="languages store/javascript/javascript.html"><li>Javascript</li></a>
+        <a href="languages store/python/python.html"><li>Python</li></a>
+      </ul>
+
+      <!-- sidenav bar -->
+      <div class="side">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </div>
+    </nav>
+    <hr/>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <ul>
+        <a href="languages store/c/c.html"><li>C</li></a>
+        <a href="languages store/c++/c++.html"><li>C++</li></a>
+        <a href="languages store/html/html.html"><li>HTML</li></a>
+        <a href="languages store/css/css.html"><li>CSS</li></a>
+        <a href="languages store/javascript/javascript.html"><li>Javascript</li></a>
+        <a href="languages store/python/python.html"><li>Python</li></a>
+      </ul>
+    </div>
+    
+    <!-- main -->
+    
+    <div class="main">
+      <div class="intro">
+        <h1>Learn to Code</h1>
+        <h4>With your friend web developer site.</h4>
+      </div>
+      <div class="card">
+        <div class="left">
+          <h1>HTML</h1>
+          <h4>The language for building web pages</h4>
+          <a href="languages store/html/html.html"><button>Learn HTML</button></a>
+        </div>
+        <div class="right">
+          <img src="images/html.png" alt="code red">
+        </div>
+      </div>
+    </div>
+
+    <!-- css -->
+
+    <div class="card2" style="background-color: #FFF4A3;">
+      <div class="left">
+        <h1>CSS</h1>
+        <h4>The language for styling web pages</h4>
+        <a href="languages store/css/css.html"><button>Learn CSS</button></a>
+      </div>
+      <div class="right">
+        <img src="images/css.png" alt="code red">
+      </div>
+    </div>
+
+    <!-- Javascript -->
+
+    <div class="card2" style="background-color: #282A35; color: white;">
+      <div class="left">
+        <h1 style="padding-left: 1rem;">Javascript</h1>
+        <h4>The language for programming web pages</h4>
+        <a href="languages store/javascript/javascript.html"><button>Learn js</button></a>
+      </div>
+      <div class="right">
+        <img src="images/javascript.png" alt="code red">
+      </div>
+    </div>
+
+    <!-- c -->
+    <div class="card2" style="background-color: #FFC0C7;">
+      <div class="left">
+        <h1 style="padding-left: 7rem;">C</h1>
+        <h4>A language use for system development
+        </h4>
+        <a href="languages store/c/c.html"><button>Learn C</button></a>
+      </div>
+      <div class="right">
+        <img src="images/html.png" alt="code red">
+      </div>
+    </div>
+
+    <!-- c++ -->
+
+    <div class="card2" style="background-color: #F3ECEA;">
+      <div class="left">
+        <h1>C++</h1>
+        <h4>A programming language</h4>
+        <a href="languages store/c++/c++.html"><button>Learn C++</button></a>
+      </div>
+      <div class="right">
+        <img src="images/html.png" alt="code red">
+      </div>
+    </div>
+
+    <!-- python -->
+    <div class="card2" style="background-color: #96D4D4;">
+      <div class="left">
+        <h1>Python</h1>
+        <h4>A popular programming language</h4>
+        <a href="languages store/python/python.html"><button>Learn py</button></a>
+      </div>
+      <div class="right">
+        <img src="images/python.png" alt="code red">
+      </div>
+    </div>
+
+    <div class="footer">
+      Copyright &copy
+    </div>
+  </body>
+    <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</html>
